@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const kDefaultPadding = 20.0;
+const kDefaultPadding = 16.0;
 const kBoxPadding = 8.0;
 const Color kPrimaryColor = Color(0xff333742);
 const Color kAccentColor = Color(0xff454D5A);

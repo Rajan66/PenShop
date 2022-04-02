@@ -37,7 +37,8 @@ class TopSectionHome extends StatelessWidget {
                             width: 50,
                             height: 50,
                             child: IconButton(
-                              highlightColor: null,
+                              highlightColor: Colors.white24,
+                              splashColor: Colors.white24,
                               icon: Icon(Icons.menu),
                               color: Colors.black,
                               onPressed: () =>
@@ -54,7 +55,8 @@ class TopSectionHome extends StatelessWidget {
                             width: 50,
                             height: 50,
                             child: IconButton(
-                              highlightColor: null,
+                              highlightColor: Colors.white24,
+                              splashColor: Colors.white24,
                               icon: Icon(Icons.shopping_bag),
                               color: Colors.black,
                               onPressed: () {
@@ -73,7 +75,7 @@ class TopSectionHome extends StatelessWidget {
                       height: 30,
                     ),
                     Container(
-                      padding: const EdgeInsets.fromLTRB(20.0,0.0,20.0,0.0),
+                      padding: const EdgeInsets.fromLTRB(20,0,20,0),
                       width: double.infinity,
                       height: 40,
                       color:Colors.white60,
@@ -82,6 +84,7 @@ class TopSectionHome extends StatelessWidget {
                               decoration: InputDecoration(
                                 fillColor: Colors.white60,
                                 hintText: "Search",
+                                //TODO: Make this float and smaller font size i guess
                                 suffixIcon: Icon(Icons.search)
                               )
                             ),
