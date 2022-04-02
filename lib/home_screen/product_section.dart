@@ -27,16 +27,14 @@ class _BrandState extends State<Brand> {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.fromLTRB(0, 0, 0, 0.0),
-      child: SizedBox(
+    return SizedBox(
           height: 90,
           child: ListView.builder(
             physics: BouncingScrollPhysics(),
             scrollDirection: Axis.horizontal,
             itemCount: brand.length,
             itemBuilder: (context, index) => buildBrand(index),
-          )),
+          ),
     );
   }
 
