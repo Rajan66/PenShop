@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:penboutique/assets/constants.dart';
 import 'package:penboutique/custom/borderbox.dart';
 
-class Popular extends StatefulWidget {
-  const Popular({Key? key}) : super(key: key);
+class NewArrival extends StatefulWidget {
+  const NewArrival({Key? key}) : super(key: key);
 
   @override
-  _PopularState createState() => _PopularState();
+  _NewArrival createState() => _NewArrival();
 }
 
-class _PopularState extends State<Popular> {
+class _NewArrival extends State<NewArrival> {
   int selectedIndex = 0;
 
   @override
@@ -40,9 +40,9 @@ class _PopularState extends State<Popular> {
               children: [
                 Image(image: kLogo, fit: BoxFit.fill),
                 SizedBox(height: 35),
-                Text("A Pen nice pen"),
+                Text("A new nice pen"),
                 SizedBox(height: 6),
-                Text("67\$"),
+                Text("900\$"),
               ],
             ),
           ),

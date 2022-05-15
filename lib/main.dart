@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:penboutique/home_screen/home_top.dart';
+import 'package:penboutique/home_screen/appbar_section/home_top.dart';
 
 import 'custom/borderbox.dart';
 
@@ -12,7 +12,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => MaterialApp(
-    debugShowCheckedModeBanner: false,
-    home: TopSectionHome(),
-  );
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(primarySwatch: Colors.grey),
+        home: TopSectionHome(),
+      );
 }

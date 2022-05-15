@@ -33,14 +33,14 @@ dev_dependencies:
   flutter_lints: ^1.0.0
 
 flutter_icons:
-  image_path: "assets/icons/pen.png"
+  image_path_ios: "assets/icons/pen.png"
+  image_path_android: "assets/icons/pen.png"
   android: true
   ios: true
 
 flutter_native_splash:
-  image_path: "assets/icons/pen.png"
-  android: true
-  ios: true
+  image: "assets/icons/pen.png"
+  color: "#ffffff"
 
 flutter:
   assets:

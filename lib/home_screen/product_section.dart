@@ -28,13 +28,13 @@ class _BrandState extends State<Brand> {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-          height: 90,
-          child: ListView.builder(
-            physics: BouncingScrollPhysics(),
-            scrollDirection: Axis.horizontal,
-            itemCount: brand.length,
-            itemBuilder: (context, index) => buildBrand(index),
-          ),
+      height: 90,
+      child: ListView.builder(
+        physics: BouncingScrollPhysics(),
+        scrollDirection: Axis.horizontal,
+        itemCount: brand.length,
+        itemBuilder: (context, index) => buildBrand(index),
+      ),
     );
   }
 
